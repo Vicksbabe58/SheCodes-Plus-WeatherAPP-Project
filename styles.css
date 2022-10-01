@@ -1,0 +1,227 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+body {
+  background-image: url(images/cool-weather.jpg);
+  font-family: "Nanum Gothic";
+}
+h2 {
+  text-align: center;
+  padding-bottom: 20px;
+  padding-top: 20px;
+  background-color: rgb(212, 124, 124);
+  border: 1px solid rgb(136, 136, 156);
+  margin: 10px 60px;
+}
+.location {
+  position: relative;
+  left: -50px;
+}
+.locationone {
+  position: relative;
+  left: -30px;
+}
+.locationtwo {
+  position: relative;
+  left: -2px;
+}
+.locationthree {
+  position: relative;
+  right: -30px;
+}
+.locationfour {
+  position: relative;
+  right: -50px;
+}
+.num {
+  font-weight: 300;
+  font-size: 20px;
+}
+.deg {
+  position: relative;
+  left: 5px;
+  font-size: 30px;
+  font-weight: 400;
+}
+.deg a {
+  text-decoration: none;
+}
+input:hover {
+  cursor: pointer;
+  color: black;
+  background-color: floralwhite;
+  border: 2px solid blue;
+  transition: all 200ms ease-in-out;
+}
+.country {
+  border-radius: 8px;
+  position: relative;
+  right: -10px;
+  width: 20%;
+  padding-left: 2px;
+  color: blue;
+  background-color: rgb(209, 194, 214);
+  border: 1px solid red;
+  box-shadow: 5px 5px 10px rgba(125, 0, 0, 0.4);
+}
+.city {
+  position: relative;
+  left: -20px;
+  width: 35%;
+  border-radius: 9px;
+  border: 1px solid red;
+  box-shadow: 5px 5px 10px rgba(125, 0, 0, 0.4);
+}
+.search {
+  position: relative;
+  left: -10px;
+  width: 20%;
+  border-radius: 8px;
+  border: 1px solid red;
+  box-shadow: 5px 5px 10px rgba(125, 0, 0, 0.4);
+}
+ul {
+  text-align: center;
+}
+li {
+  display: inline;
+  list-style: none;
+  padding: 5px 20px 5px 10px;
+  font-weight: 400px;
+  margin: 5px;
+  position: relative;
+}
+
+.main {
+  background: linear-gradient(
+    106.5deg,
+    rgba(255, 215, 185, 0.91) 23%,
+    rgba(223, 159, 247, 0.8) 93%
+  );
+
+  max-width: 65%;
+  margin: 2px auto;
+  padding: 10px 40px;
+  cursor: default;
+  font-family: Arial, Helvetica, sans-serif;
+  position: relative;
+  top: 30px;
+  bottom: 20px;
+}
+.heading {
+  text-align: center;
+}
+.temperature {
+  font-size: 45px;
+}
+.emoji {
+  font-size: 40px;
+  position: relative;
+  left: 10px;
+}
+.change {
+  color: blueviolet;
+  font-weight: 600;
+  font-size: 20px;
+}
+.celsuis,
+.line,
+.fahrenheit {
+  font-size: 15px;
+  position: relative;
+  top: -20px;
+  font-weight: 600;
+  font-family: cursive;
+  left: -10px;
+}
+.new-date,
+.new-time {
+  font-weight: 700;
+  font-size: 18px;
+  font-family: "Nanum Gothic";
+}
+.description {
+  position: relative;
+  top: -20px;
+  font-weight: 700;
+  font-family: cursive;
+}
+.row {
+  padding-top: 10px;
+  padding-bottom: 5px;
+  height: 10%;
+  margin: 0 auto;
+}
+.col {
+  padding: 5px;
+  font-family: "Mukta";
+  font-size: 17px;
+  color: blueviolet;
+  font-weight: 700px;
+  position: relative;
+  margin: -40px;
+}
+.timeone,
+.timetwo {
+  color: #369136;
+  font-size: 15px;
+  font-weight: 600;
+}
+.degreeone,
+.degreetwo {
+  color: #573b3b;
+  font-size: 15px;
+  font-weight: 700;
+}
+.container {
+  margin-top: 40px;
+  margin-bottom: 20px;
+}
+.card {
+  text-align: center;
+  justify-content: center;
+  border: 1px solid rgb(136, 136, 156);
+  margin: 10px auto;
+  width: 83%;
+  font-family: "Pacifico", cursive;
+  font-size: 20px;
+  color: crimson;
+  background-color: rgb(106, 119, 119);
+  box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.3);
+}
+.card-text .first {
+  left: -60px;
+}
+.card-text .second {
+  left: -30px;
+}
+.card-text .third {
+  left: -10px;
+}
+.card-text .fourth {
+  right: -20px;
+}
+.card-text .fifth {
+  right: -30px;
+}
+
+.card-title .first {
+  left: -50px;
+}
+.card-title .second {
+  left: -20px;
+}
+.card-title .third {
+  left: -2px;
+}
+.card-title .fourth {
+  right: -20px;
+}
+.card-title .fifth {
+  right: -30px;
+}
+
+.card-text {
+  font-size: 30px;
+}
