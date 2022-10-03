@@ -97,4 +97,4 @@ function getCurrentLocation(event) {
 let currentLocationButton = document.querySelector("#country-input");
 currentLocationButton.addEventListener("click", getCurrentLocation);
 
-search("New York");
+search("Awka");

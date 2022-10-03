@@ -93,6 +93,34 @@ li {
   position: relative;
 }
 
+a {
+  text-decoration: none;
+}
+
+button {
+  border-radius: 25px;
+  border: 1px solid #8064e9;
+  background: #8064e9;
+  color: #fff;
+  font-size: 20px;
+  display: block;
+  margin: 0 auto;
+
+  padding: 16px 15px;
+  text-decoration: none;
+  transition: all 200ms ease-in-out;
+  box-shadow: 5px 5px 10px rgba(37, 39, 89, 0.8);
+
+  position: relative;
+  bottom: 55px;
+  right: 300px;
+}
+
+button:hover {
+  cursor: pointer;
+  background: #5e41a7;
+}
+
 .main {
   background: linear-gradient(
     106.5deg,
@@ -101,13 +129,14 @@ li {
   );
 
   max-width: 65%;
-  margin: 2px auto;
+  margin: 0 auto;
   padding: 10px 40px;
   cursor: default;
   font-family: Arial, Helvetica, sans-serif;
   position: relative;
-  top: 30px;
-  bottom: 20px;
+  top: 20px;
+
+  height: 29rem;
 }
 .heading {
   text-align: center;
@@ -189,7 +218,26 @@ li {
   color: crimson;
   background-color: rgb(106, 119, 119);
   box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.3);
+  height: 9rem;
 }
+
+.card-name .first {
+  left: -75px;
+}
+.card-name .second {
+  left: -60px;
+}
+.card-name .third {
+  left: -50px;
+}
+.card-name .fourth {
+  right: 40px;
+}
+.card-name .fifth {
+  right: -200px;
+  bottom: 30px;
+}
+
 .card-text .first {
   left: -60px;
 }
@@ -221,7 +269,18 @@ li {
 .card-title .fifth {
   right: -30px;
 }
+.card-name {
+  font-size: 20px;
+  position: relative;
+  top: 35px;
+}
 
 .card-text {
   font-size: 30px;
+  position: relative;
+  top: -10px;
+}
+.card-title {
+  position: relative;
+  top: -20px;
 }
