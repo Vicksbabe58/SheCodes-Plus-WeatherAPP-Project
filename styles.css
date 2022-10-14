@@ -5,6 +5,8 @@
 body {
   background-image: url(images/cool-weather.jpg);
   font-family: "Nanum Gothic";
+  height: 100vh;
+  max-width: 100%;
 }
 h2 {
   text-align: center;
@@ -113,7 +115,7 @@ button {
 
   position: relative;
   bottom: 75px;
-  right: 300px;
+  right: 380px;
 }
 
 button:hover {
@@ -129,6 +131,7 @@ button:hover {
   );
 
   max-width: 65%;
+
   margin: 0 auto;
   padding: 10px 40px;
   cursor: default;
@@ -222,20 +225,19 @@ button:hover {
 }
 
 .card-name .first {
-  left: -75px;
+  left: -45px;
 }
 .card-name .second {
-  left: -60px;
+  left: -20px;
 }
 .card-name .third {
-  left: -50px;
+  left: -15px;
 }
 .card-name .fourth {
-  right: 40px;
+  right: 2px;
 }
 .card-name .fifth {
-  right: -200px;
-  bottom: 30px;
+  right: -5px;
 }
 
 .card-text .first {
@@ -272,15 +274,15 @@ button:hover {
 .card-name {
   font-size: 20px;
   position: relative;
-  top: 35px;
+  bottom: -10px;
 }
 
 .card-text {
   font-size: 30px;
   position: relative;
-  top: -10px;
+  top: 5px;
 }
 .card-title {
   position: relative;
-  top: -20px;
+  top: -2px;
 }
